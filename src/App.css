@@ -1,0 +1,307 @@
+*{
+  margin-top: 0px;
+
+}
+
+.App {
+  text-align: center;
+}
+
+.Head{
+
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("https://startbootstrap.github.io/startbootstrap-creative/assets/img/bg-masthead.jpg");
+ opacity: 0.8;
+
+}
+.firsth2{
+  color: rgb(228, 222, 222);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  cursor: pointer;
+}
+.firsth2:hover{
+  color: white;
+}
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 2rem;
+}
+.myul ul{
+  display: flex;
+  gap: 2rem;
+}
+.myul li{
+  color: rgb(228, 222, 222) ;
+  list-style-type: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.myul li:hover{
+  color: white;
+  cursor: pointer;
+}
+
+.body{
+  padding-top: 15%;
+  text-align: center;
+  padding-bottom: 15rem ;
+}
+
+.body h1{
+  color: white;
+
+font-size: 50px;
+
+
+}
+.body p{
+  color: rgb(172, 168, 168);
+  font-size: 25px;
+padding-top: 1.5rem;
+}
+
+.body button{
+
+  color: white;
+  width: 10rem;
+  height: 3rem;
+  border: 1px solid  #f4623a ;
+  background-color:  #f4623a;
+  border-radius: 30px;
+  margin-top: 1.5rem;
+  cursor: pointer;
+}
+
+.redpart{
+  background-color: #f4623a;
+  padding-bottom: 5rem;
+}
+.redpart h2{
+  padding-top: 5%;
+  color: white;
+}
+
+.redpart p{
+  color: rgb(214, 210, 210);
+  padding-top: 2rem;
+  padding-bottom: 1.4rem;
+}
+
+.redpart button{
+  cursor: pointer;
+  width: 10rem;
+  height: 3rem;
+  border: 1px solid  #f4623a ;
+  background-color:  white;
+  border-radius: 30px;
+  margin-top: 1rem;
+  font-size: 16px;
+}
+
+.service{
+  padding-top: 7rem;
+}
+
+.service h2{
+  font-size: 30px;
+  padding-bottom: 3rem;
+}
+
+.parts{
+display: flex;
+justify-content: space-evenly;
+padding-bottom: 5rem;
+}
+
+.first h3{
+  padding-top: 1rem;
+   font-size: 28px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.second h3{
+  padding-top: 1rem;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.third h3{
+  padding-top: 1rem;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.four h3{
+  padding-top: 1rem;
+
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.photos1{
+  display: flex;
+  overflow: hidden;
+}
+
+.photos2{
+  display: flex;
+  overflow: hidden;
+}
+
+.card{
+position: relative;
+background-color: #f4623a;
+transition: 0.4s;
+height: 21rem;
+cursor: pointer;
+}
+
+.card:hover img{
+  opacity: 10%;
+  
+}
+.card:hover .carditem1{
+ opacity: 1;
+  transition: 0.4s;
+}
+.carditem1{
+  position: absolute;
+  top: 8rem;
+  left: 15rem;
+  opacity: 0;
+  
+}
+.carditem1 h5{
+ font-size: 20px;
+ color: rgba(255, 255, 255, 0.5);
+
+}
+.card img{
+  transition: 0.4s;
+  height: 21rem;
+}
+
+.carditem1 h3{
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.porto{
+  padding-top: 8rem;
+padding-bottom: 8rem;
+  text-align: center;
+  background-color: #343a40;
+}
+.porto button{
+ 
+  width: 10rem;
+  height: 3rem;
+  border: 1px solid  white ;
+  background-color:  white;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.porto h1{
+  color: white;
+padding-bottom: 3rem;
+}
+
+.portin{
+  padding-top: 7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.portin h2{
+  font-size: 25px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-bottom: 1rem;
+}
+.portin p{
+  color: #282c34;
+  max-width: 33rem;
+  
+}
+
+
+form{
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ gap: 1rem;
+ padding-bottom: 7rem;
+}
+
+form input{
+  width: 33rem;
+  height: 3.5rem;
+}
+
+form button{
+  width: 33rem;
+  height: 3rem;
+  color: white;
+  border: 1px solid  #f4623a ;
+  background-color: #f4623a ;
+  border-radius: 30px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.contact p{
+ 
+  padding-bottom: 1rem;
+}
+
+
+.foot{
+  background-color: #ced4da;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+
+
+
+
+
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
